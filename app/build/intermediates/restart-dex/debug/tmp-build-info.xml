@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="22"
+    density="xhdpi"
+    format="7"
+    timestamp="16407304304212"
+    token="0" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <artifact
+        location="C:\app_practice\7_25\jython-on-android-master\app\build\intermediates\res\resources-debug.ap_"
+        type="RESOURCES" />
+
+</instant-run>

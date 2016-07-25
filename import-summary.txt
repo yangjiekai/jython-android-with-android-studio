@@ -1,0 +1,203 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* LICENSE.txt
+* LICENSE_Apache.txt
+* LICENSE_CPython.txt
+* README
+* build.properties
+* build.xml
+* default.properties
+* proguard.cfg
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+guava-r07.jar => com.google.guava:guava:18.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* libs\antlr-runtime-3.1.3.jar => app\libs\antlr-runtime-3.1.3.jar
+* libs\asm-3.1.jar => app\libs\asm-3.1.jar
+* libs\asm-commons-3.1.jar => app\libs\asm-commons-3.1.jar
+* libs\asm-util-3.1.jar => app\libs\asm-util-3.1.jar
+* libs\constantine.jar => app\libs\constantine.jar
+* libs\jarjar-0.7.jar => app\libs\jarjar-0.7.jar
+* libs\jline-0_9_5.jar => app\libs\jline-0_9_5.jar
+* libs\livetribe-jsr223-2.0.5.jar => app\libs\livetribe-jsr223-2.0.5.jar
+* libs\profile.jar => app\libs\profile.jar
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+* src\org\python\antlr\Python.tokens => app\src\main\resources\org\python\antlr\Python.tokens
+* src\org\python\antlr\PythonPartial.tokens => app\src\main\resources\org\python\antlr\PythonPartial.tokens
+* src\org\python\modules\ucnhash.dat => app\src\main\resources\org\python\modules\ucnhash.dat
+* src\org\python\util\jline-keybindings.properties => app\src\main\resources\org\python\util\jline-keybindings.properties
+* src\org\python\version.properties => app\src\main\resources\org\python\version.properties
+* src\templates\array.derived => app\src\main\resources\templates\array.derived
+* src\templates\ast_alias.derived => app\src\main\resources\templates\ast_alias.derived
+* src\templates\ast_arguments.derived => app\src\main\resources\templates\ast_arguments.derived
+* src\templates\ast_Assert.derived => app\src\main\resources\templates\ast_Assert.derived
+* src\templates\ast_Assign.derived => app\src\main\resources\templates\ast_Assign.derived
+* src\templates\ast_Attribute.derived => app\src\main\resources\templates\ast_Attribute.derived
+* src\templates\ast_AugAssign.derived => app\src\main\resources\templates\ast_AugAssign.derived
+* src\templates\ast_BinOp.derived => app\src\main\resources\templates\ast_BinOp.derived
+* src\templates\ast_BoolOp.derived => app\src\main\resources\templates\ast_BoolOp.derived
+* src\templates\ast_Break.derived => app\src\main\resources\templates\ast_Break.derived
+* src\templates\ast_Call.derived => app\src\main\resources\templates\ast_Call.derived
+* src\templates\ast_ClassDef.derived => app\src\main\resources\templates\ast_ClassDef.derived
+* src\templates\ast_Compare.derived => app\src\main\resources\templates\ast_Compare.derived
+* src\templates\ast_comprehension.derived => app\src\main\resources\templates\ast_comprehension.derived
+* src\templates\ast_Continue.derived => app\src\main\resources\templates\ast_Continue.derived
+* src\templates\ast_Delete.derived => app\src\main\resources\templates\ast_Delete.derived
+* src\templates\ast_Dict.derived => app\src\main\resources\templates\ast_Dict.derived
+* src\templates\ast_Ellipsis.derived => app\src\main\resources\templates\ast_Ellipsis.derived
+* src\templates\ast_ExceptHandler.derived => app\src\main\resources\templates\ast_ExceptHandler.derived
+* src\templates\ast_Exec.derived => app\src\main\resources\templates\ast_Exec.derived
+* src\templates\ast_Expr.derived => app\src\main\resources\templates\ast_Expr.derived
+* src\templates\ast_Expression.derived => app\src\main\resources\templates\ast_Expression.derived
+* src\templates\ast_ExtSlice.derived => app\src\main\resources\templates\ast_ExtSlice.derived
+* src\templates\ast_For.derived => app\src\main\resources\templates\ast_For.derived
+* src\templates\ast_FunctionDef.derived => app\src\main\resources\templates\ast_FunctionDef.derived
+* src\templates\ast_GeneratorExp.derived => app\src\main\resources\templates\ast_GeneratorExp.derived
+* src\templates\ast_Global.derived => app\src\main\resources\templates\ast_Global.derived
+* src\templates\ast_If.derived => app\src\main\resources\templates\ast_If.derived
+* src\templates\ast_IfExp.derived => app\src\main\resources\templates\ast_IfExp.derived
+* src\templates\ast_Import.derived => app\src\main\resources\templates\ast_Import.derived
+* src\templates\ast_ImportFrom.derived => app\src\main\resources\templates\ast_ImportFrom.derived
+* src\templates\ast_Index.derived => app\src\main\resources\templates\ast_Index.derived
+* src\templates\ast_Interactive.derived => app\src\main\resources\templates\ast_Interactive.derived
+* src\templates\ast_keyword.derived => app\src\main\resources\templates\ast_keyword.derived
+* src\templates\ast_Lambda.derived => app\src\main\resources\templates\ast_Lambda.derived
+* src\templates\ast_List.derived => app\src\main\resources\templates\ast_List.derived
+* src\templates\ast_ListComp.derived => app\src\main\resources\templates\ast_ListComp.derived
+* src\templates\ast_Module.derived => app\src\main\resources\templates\ast_Module.derived
+* src\templates\ast_Name.derived => app\src\main\resources\templates\ast_Name.derived
+* src\templates\ast_Num.derived => app\src\main\resources\templates\ast_Num.derived
+* src\templates\ast_Pass.derived => app\src\main\resources\templates\ast_Pass.derived
+* src\templates\ast_Print.derived => app\src\main\resources\templates\ast_Print.derived
+* src\templates\ast_Raise.derived => app\src\main\resources\templates\ast_Raise.derived
+* src\templates\ast_Repr.derived => app\src\main\resources\templates\ast_Repr.derived
+* src\templates\ast_Return.derived => app\src\main\resources\templates\ast_Return.derived
+* src\templates\ast_Slice.derived => app\src\main\resources\templates\ast_Slice.derived
+* src\templates\ast_Str.derived => app\src\main\resources\templates\ast_Str.derived
+* src\templates\ast_Subscript.derived => app\src\main\resources\templates\ast_Subscript.derived
+* src\templates\ast_Suite.derived => app\src\main\resources\templates\ast_Suite.derived
+* src\templates\ast_TryExcept.derived => app\src\main\resources\templates\ast_TryExcept.derived
+* src\templates\ast_TryFinally.derived => app\src\main\resources\templates\ast_TryFinally.derived
+* src\templates\ast_Tuple.derived => app\src\main\resources\templates\ast_Tuple.derived
+* src\templates\ast_UnaryOp.derived => app\src\main\resources\templates\ast_UnaryOp.derived
+* src\templates\ast_While.derived => app\src\main\resources\templates\ast_While.derived
+* src\templates\ast_With.derived => app\src\main\resources\templates\ast_With.derived
+* src\templates\ast_Yield.derived => app\src\main\resources\templates\ast_Yield.derived
+* src\templates\BaseException.derived => app\src\main\resources\templates\BaseException.derived
+* src\templates\classmethod.derived => app\src\main\resources\templates\classmethod.derived
+* src\templates\ClasspathPyImporter.derived => app\src\main\resources\templates\ClasspathPyImporter.derived
+* src\templates\complex.derived => app\src\main\resources\templates\complex.derived
+* src\templates\defaultdict.derived => app\src\main\resources\templates\defaultdict.derived
+* src\templates\deque.derived => app\src\main\resources\templates\deque.derived
+* src\templates\dialect.derived => app\src\main\resources\templates\dialect.derived
+* src\templates\dict.derived => app\src\main\resources\templates\dict.derived
+* src\templates\directives.py => app\src\main\resources\templates\directives.py
+* src\templates\enumerate.derived => app\src\main\resources\templates\enumerate.derived
+* src\templates\file.derived => app\src\main\resources\templates\file.derived
+* src\templates\float.derived => app\src\main\resources\templates\float.derived
+* src\templates\frozenset.derived => app\src\main\resources\templates\frozenset.derived
+* src\templates\function.expose => app\src\main\resources\templates\function.expose
+* src\templates\gderived-defs => app\src\main\resources\templates\gderived-defs
+* src\templates\gderived.py => app\src\main\resources\templates\gderived.py
+* src\templates\gexpose-defs => app\src\main\resources\templates\gexpose-defs
+* src\templates\gexpose.py => app\src\main\resources\templates\gexpose.py
+* src\templates\int.derived => app\src\main\resources\templates\int.derived
+* src\templates\java_lexer.py => app\src\main\resources\templates\java_lexer.py
+* src\templates\java_parser.py => app\src\main\resources\templates\java_parser.py
+* src\templates\java_pretty.py => app\src\main\resources\templates\java_pretty.py
+* src\templates\java_templating.py => app\src\main\resources\templates\java_templating.py
+* src\templates\list.derived => app\src\main\resources\templates\list.derived
+* src\templates\local.derived => app\src\main\resources\templates\local.derived
+* src\templates\long.derived => app\src\main\resources\templates\long.derived
+* src\templates\make_binops.py => app\src\main\resources\templates\make_binops.py
+* src\templates\mappings => app\src\main\resources\templates\mappings
+* src\templates\module.derived => app\src\main\resources\templates\module.derived
+* src\templates\object.derived => app\src\main\resources\templates\object.derived
+* src\templates\op_Add.derived => app\src\main\resources\templates\op_Add.derived
+* src\templates\op_And.derived => app\src\main\resources\templates\op_And.derived
+* src\templates\op_AugLoad.derived => app\src\main\resources\templates\op_AugLoad.derived
+* src\templates\op_AugStore.derived => app\src\main\resources\templates\op_AugStore.derived
+* src\templates\op_BitAnd.derived => app\src\main\resources\templates\op_BitAnd.derived
+* src\templates\op_BitOr.derived => app\src\main\resources\templates\op_BitOr.derived
+* src\templates\op_BitXor.derived => app\src\main\resources\templates\op_BitXor.derived
+* src\templates\op_Del.derived => app\src\main\resources\templates\op_Del.derived
+* src\templates\op_Div.derived => app\src\main\resources\templates\op_Div.derived
+* src\templates\op_Eq.derived => app\src\main\resources\templates\op_Eq.derived
+* src\templates\op_FloorDiv.derived => app\src\main\resources\templates\op_FloorDiv.derived
+* src\templates\op_Gt.derived => app\src\main\resources\templates\op_Gt.derived
+* src\templates\op_GtE.derived => app\src\main\resources\templates\op_GtE.derived
+* src\templates\op_In.derived => app\src\main\resources\templates\op_In.derived
+* src\templates\op_Invert.derived => app\src\main\resources\templates\op_Invert.derived
+* src\templates\op_Is.derived => app\src\main\resources\templates\op_Is.derived
+* src\templates\op_IsNot.derived => app\src\main\resources\templates\op_IsNot.derived
+* src\templates\op_Load.derived => app\src\main\resources\templates\op_Load.derived
+* src\templates\op_LShift.derived => app\src\main\resources\templates\op_LShift.derived
+* src\templates\op_Lt.derived => app\src\main\resources\templates\op_Lt.derived
+* src\templates\op_LtE.derived => app\src\main\resources\templates\op_LtE.derived
+* src\templates\op_Mod.derived => app\src\main\resources\templates\op_Mod.derived
+* src\templates\op_Mult.derived => app\src\main\resources\templates\op_Mult.derived
+* src\templates\op_Not.derived => app\src\main\resources\templates\op_Not.derived
+* src\templates\op_NotEq.derived => app\src\main\resources\templates\op_NotEq.derived
+* src\templates\op_NotIn.derived => app\src\main\resources\templates\op_NotIn.derived
+* src\templates\op_Or.derived => app\src\main\resources\templates\op_Or.derived
+* src\templates\op_Param.derived => app\src\main\resources\templates\op_Param.derived
+* src\templates\op_Pow.derived => app\src\main\resources\templates\op_Pow.derived
+* src\templates\op_RShift.derived => app\src\main\resources\templates\op_RShift.derived
+* src\templates\op_Store.derived => app\src\main\resources\templates\op_Store.derived
+* src\templates\op_Sub.derived => app\src\main\resources\templates\op_Sub.derived
+* src\templates\op_UAdd.derived => app\src\main\resources\templates\op_UAdd.derived
+* src\templates\op_USub.derived => app\src\main\resources\templates\op_USub.derived
+* src\templates\partial.derived => app\src\main\resources\templates\partial.derived
+* src\templates\property.derived => app\src\main\resources\templates\property.derived
+* src\templates\random.derived => app\src\main\resources\templates\random.derived
+* src\templates\README.txt => app\src\main\resources\templates\README.txt
+* src\templates\set.derived => app\src\main\resources\templates\set.derived
+* src\templates\sigs.txt => app\src\main\resources\templates\sigs.txt
+* src\templates\simpleprettyspec.py => app\src\main\resources\templates\simpleprettyspec.py
+* src\templates\spark.py => app\src\main\resources\templates\spark.py
+* src\templates\str.derived => app\src\main\resources\templates\str.derived
+* src\templates\super.derived => app\src\main\resources\templates\super.derived
+* src\templates\test.derived => app\src\main\resources\templates\test.derived
+* src\templates\tuple.derived => app\src\main\resources\templates\tuple.derived
+* src\templates\type.derived => app\src\main\resources\templates\type.derived
+* src\templates\unicode.derived => app\src\main\resources\templates\unicode.derived
+* src\templates\weakref.derived => app\src\main\resources\templates\weakref.derived
+* src\templates\zipimporter.derived => app\src\main\resources\templates\zipimporter.derived
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

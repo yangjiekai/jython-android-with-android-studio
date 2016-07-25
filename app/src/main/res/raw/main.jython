@@ -1,0 +1,5 @@
+from android.util import Log
+
+Log.d("Jython-on-Android", "This is a test message from main.jython")
+
+
